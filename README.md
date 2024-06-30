@@ -1,3 +1,3 @@
 # Code-Notes
 
- [JavaScript] (master/JavaScript.md)
+[JavaScript](master/JavaScript.md)
