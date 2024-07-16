@@ -1,5 +1,5 @@
 # L I N K S
-1.[blob/master/C.md](https://github.com/shau-14/Code-Notes/blob/master/C.md) <br>
+[1.C](https://github.com/shau-14/Code-Notes/blob/master/C.md) <br>
 [2. CSS](master/CSS.md) <br>
 [3. GIT](master/GIT.md) <br>
 [4. JAVA](master/JAVA.md) <br>
