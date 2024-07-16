@@ -1,5 +1,5 @@
 # L I N K S
-[1. C](master/C.md) <br>
+[1. C](blob/master/C.md) <br>
 [2. CSS](master/CSS.md) <br>
 [3. GIT](master/GIT.md) <br>
 [4. JAVA](master/JAVA.md) <br>
