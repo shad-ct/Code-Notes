@@ -1,5 +1,5 @@
 # Index
-[1.  Web](https://github.com/shau-14/Code-Notes/blob/master/C.md) <br>
+[1.  Web](https://github.com/shau-14/Code-Notes/blob/master/WE) <br>
 [2.  C](https://github.com/shad-ct/Code-Notes/tree/main/C) <br>
 [3.  C++](https://github.com/shad-ct/Code-Notes/tree/main/C%2B%2B) <br>
 [4.  JAVA](https://github.com/shad-ct/Code-Notes/tree/main/JAVA) <br>
