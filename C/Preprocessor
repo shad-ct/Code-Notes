@@ -1,0 +1,14 @@
+#define PI 3.14;
+#define SIZE sizeof(int)*4;
+#define EQUALS ==
+#define BLANK_LINE printf("\n");
+#define GOOD printf"very good");
+
+eg : 
+  #include<stdio.h>
+  #define GOOD printf("very good");
+  int main()
+  {
+	  GOOD;
+  }
+
