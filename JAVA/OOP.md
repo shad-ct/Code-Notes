@@ -19,6 +19,7 @@
 
 # constructor : 
     // calling a class into main , without using any function calling like class1();
+    // when you want an action to do when an object is created 
     class1.java : 
                 public class class1 {
                     class1() { // note that the class1() function like thing is called constructor of class1.java
