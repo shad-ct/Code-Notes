@@ -155,3 +155,10 @@ label = Label(window,text = "Welcome")
 label.pack()
 button.pack()
 window.mainloop()
+
+
+# lambda : 
+    used when u have only 1 function eg : 
+    test = lambda x : x*x
+    print(test(5)) # prints 5^2
+    
