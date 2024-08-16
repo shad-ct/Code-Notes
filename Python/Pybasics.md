@@ -162,3 +162,80 @@ window.mainloop()
     test = lambda x : x*x
     print(test(5)) # prints 5^2
     
+
+# oop Restart : 
+    class : blueprint of object 
+    object : member of a class 
+
+    smartphone,laptop,tv (object) :> Electronics (class)
+
+    object has properties and methods : 
+    eg : car -> name,color,price -> properties 
+    function : car -> start(),stop(),run()
+
+    # when you use single object : 
+                class Students: 
+                    def __init__(self) :
+                        self.name = "shad"
+                        self.age = 18
+                x = Students()
+                print(x.age)
+    
+    # when you wanna make more than 1 objects : 
+        class Students: 
+            def __init__(self,name,age) :
+                self.name = name
+                self.age = age
+            def display(self):
+                print("your name is : " ,self.name, " and you are ",self.age ," years old")    
+        std1 = Students("shad",18)
+        std2 = Students("shah",19)
+        std1.display()
+        std2.display()
+
+# Inheritance : 
+    class Parent: 
+        something 
+    class child(Parent)
+
+    eg : 
+    class Person : # parent
+    def __init__(self,name,phone): 
+        self.name = name
+        self.phone = phone
+    def display(self):
+        print("Name : ",self.name)
+        print("Phone : ",self.phone)
+    
+class Doctor(Person): # child1, we use (Person) to define the parent 
+    pass # use it when u aren't making anything but using the parent stuffs
+class Patient(Person):
+    pass
+
+Doc1 = Doctor("Shad",12812)
+Doc2 = Doctor("Jaseel",9895)
+
+Pat1 = Patient("zyn",28419)
+Pat2 = Patient("sahal",1993234)
+
+print("\nDoctors : \n")
+Doc1.display()
+Doc2.display()
+
+print("\nPatients : \n")
+Pat1.display()
+Pat2.display() 
+
+# module : 
+    module.py : 
+        def message(name):
+            print("Hello from module.py")
+    main.py : 
+        import module
+        module.message("shad")
+# file handling 
+    f = open("file.txt","w")
+    f.write("Hello from file handling")
+    read = f.read()
+    print(read)
+    f.close()
