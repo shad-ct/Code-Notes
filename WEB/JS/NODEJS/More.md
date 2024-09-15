@@ -1,5 +1,5 @@
 # custom module making 
-  > module.js 
+   module.js 
   const sum = function(a,b){
     return a + b;
   }
@@ -10,7 +10,7 @@
       add : sum,
       product : mul
   }
-  > main.js
+   main.js
   var calc = require('./module')
   console.log(calc.add(20,30))
   
