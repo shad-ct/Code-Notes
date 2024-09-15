@@ -75,3 +75,38 @@
 # when we submit a form the browser doesn't take the id but the name 
     eg : <input id="firstName" name="fname" value="shad">
     here the browser display fname=shad instead of firstName in url
+
+# File control :
+
+var fs = require('fs')
+fs.writeFile('test.txt',"this is the message",function(err){
+    if(err){
+        console.log('there is an error creating the file')
+    }
+})
+// to add more data : 
+fs.appendFile('test.txt',"more messages",function(err){
+    if(err){
+        console.log('there is an error creating the file')
+    }
+})
+
+// read file : 
+fs.readFile('test.txt','utf8',function(err,data){
+    if(err){
+        console.log('theres an error')
+    }
+    else{
+        console.log(data)
+    }
+})
+
+// delete 
+fs.unlink('test.txt',function(err){
+    if(err){
+        console.log('theres an error')
+    }
+    else{
+        console.log('deleted')
+    }
+})
