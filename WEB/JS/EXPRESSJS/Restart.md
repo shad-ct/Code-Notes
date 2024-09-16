@@ -25,4 +25,36 @@
 ## get static files like img etc
 
     app.use(express.static('public')) // public is the folder name containing images
-// to open you can do eg : http://localhost:2000/img.png or even the folders inside the public folder 
+    // to open you can do eg : http://localhost:2000/img.png or even the folders inside the public folder 
+
+# Express Router : 
+        > Module.js 
+    const express = require('express')
+    const router = express.Router()
+    
+    router.get('/',(req,res)=>{
+        res.send('This is a get ')
+    })
+    router.post('/',(req,res)=>{
+        res.send('This is a post ')
+    })
+    router.put('/',(req,res)=>{
+        res.send('This is a put ')
+    })
+    
+    router.delete('/',(req,res)=>{
+        res.send('This is a delete ')
+    })
+    
+    module.exports = router 
+        > app.js
+    const express = require('express')
+    const app = express()
+    const path = require('path')
+    const moduleRouter = require('./routes/module.js')
+    
+    app.use('/module',moduleRouter)
+    
+    app.listen(2000, function(req,res){
+        console.log('server is running on port 2000')
+    })
