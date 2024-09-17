@@ -42,3 +42,30 @@
     .catch((err)=>{
         console.log(err)
     })
+
+
+
+# Syncing 2 tasks with different time into 1 using promise : 
+
+    const promise = require('promise')
+    
+    function getName(){
+        return new Promise((resolve,reject)=>{
+            setTimeout(()=>{
+                resolve("shad")
+            },3000)
+        })
+    }
+    
+    function getAge(){
+        return new Promise((resolve,reject)=>{
+            setTimeout(()=>{
+                resolve(18)
+            },2000)
+        })
+    }
+    
+    Promise.all([getName(),getAge()]).then((result)=>{
+        console.log(result) 
+    // the values from name and age stores into an array , and prints at the same time, it is to sync the task at one
+    })
