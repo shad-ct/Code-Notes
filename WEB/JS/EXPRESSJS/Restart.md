@@ -58,3 +58,22 @@
     app.listen(2000, function(req,res){
         console.log('server is running on port 2000')
     })
+
+## Route parameters 
+    //const {id} = req.params
+    //if(id == 'hi')   
+
+    app.get('/:id',(req,res)=>{
+        if(req.params.id == 'hi'){
+            res.send('hello')
+        }
+        else{
+            res.send('not found')
+        }
+    })
+## File downloading : 
+
+    const path = requrie('path')
+    app.get('/down',(req,res)=>{
+        res.download(path.join(__dirname,'hi.txt'))
+    })
