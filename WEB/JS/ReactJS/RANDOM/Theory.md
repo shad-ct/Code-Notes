@@ -10,6 +10,7 @@ changing something in the div of a component
 
 <p>The Show/Hide button here does the mounting and unmounting . The Add button does the updating.</p>
 ### App.js : 
+
     import Counter from './component/Counter'
     import {useState} from 'react'
     function App() {
@@ -28,6 +29,7 @@ changing something in the div of a component
     }
     
     export default App;
+
 
 
 ### Counter.js : 
