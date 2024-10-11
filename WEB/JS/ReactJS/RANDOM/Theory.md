@@ -9,6 +9,7 @@ changing something in the div of a component
 # Example : 
 
 <p>The Show/Hide button here does the mounting and unmounting . The Add button does the updating.</p>
+
 ### App.js : 
 
     import Counter from './component/Counter'
