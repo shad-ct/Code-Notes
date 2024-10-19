@@ -4,5 +4,5 @@
 
 ## Using css in jsx of react : 
     
-    ``> App.js
-    import './style.css'``
+``> App.js
+import './style.css'``
