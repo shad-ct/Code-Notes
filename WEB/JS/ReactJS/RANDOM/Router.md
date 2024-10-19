@@ -47,3 +47,4 @@ Using Link :
      export default App;
 
 - when you click on the "Profile" you'll get into that page 
+- Note : If you use <NavLink> instead of <Link> there will a new class called "active" to the opened route, which can be used in highlighting the page you are in 
