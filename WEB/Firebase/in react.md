@@ -1,7 +1,7 @@
 # Points to note : 
 
 - ADD : ``await addDoc(userCollectionRef,{name:newName, age : newAge})``
-- 
+- ALL IN ONE : https://github.com/machadop1407/firebase-react-crud
 
 ## Config.js
 
