@@ -10,13 +10,7 @@
     
     
     const firebaseConfig = {
-        apiKey: "AIzaSyDwyfDhL8INx98VFzdqeh6xlj264JWcAsE",
-        authDomain: "fyimp-cs.firebaseapp.com",
-        projectId: "fyimp-cs",
-        storageBucket: "fyimp-cs.appspot.com",
-        messagingSenderId: "510676784309",
-        appId: "1:510676784309:web:563f5f3f6191607d915afc",
-        measurementId: "G-JF7Z6M121L"
+        apiKey: "
     };
     
     const app = initializeApp(firebaseConfig)
