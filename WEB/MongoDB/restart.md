@@ -68,10 +68,11 @@ Conditional statement / query operators :
     $and : && 
     db.product.find({$and:[{category:{$eq:"laptop"}}, {price: {$eq : 100}}]})
     // get laptops with 100 rs 
+    
+Get data based on more than 1 conditions : 
 
-
-
-
+    db.product.find({category : {$in:["scanner","printer"]}})
+    // get data about scanner and printer
 
 
 
