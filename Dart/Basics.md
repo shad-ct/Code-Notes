@@ -39,4 +39,9 @@ The int.parse(!) : is for making sure that the num1 is not null , and we get it 
     '''hello world 
     This is multi line'''
 
-    print(name.length) // find length
+    print(name.length) // find length (including white space)
+
+## List✅ Array❌
+
+    var Mix = ["shad",19]; // dynamic array 
+    List<int> numbers = [1,2,3,5,6,7,8];
