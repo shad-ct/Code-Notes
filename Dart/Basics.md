@@ -41,9 +41,16 @@ The int.parse(!) : is for making sure that the num1 is not null , and we get it 
 
     print(name.length) // find length (including white space)
 
-
+----------------------------------
 
 ## List✅ Array❌
 
     var Mix = ["shad",19]; // dynamic array , same as list<dynamic>
     List<int> numbers = [1,2,3,5,6,7,8];
+
+### List operations : 
+
+    numberList.contains(5) // check if it has 5 
+    numberList.add(22) // add 22 to list 
+    numberList.removeAt(3) // remove at index 3 
+    
