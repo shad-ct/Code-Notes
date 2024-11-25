@@ -30,3 +30,13 @@ The int.parse(!) : is for making sure that the num1 is not null , and we get it 
 
 
 -------------------------------
+
+## String : 
+
+    String name = 'shad'
+    String yourName = "i am shad"
+    string address = 
+    '''hello world 
+    This is multi line'''
+
+    print(name.length) // find length
