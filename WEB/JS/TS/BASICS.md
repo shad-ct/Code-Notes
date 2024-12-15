@@ -14,7 +14,7 @@ let age: number = 25;
 let name: string = "Bob";
 let isStudent: boolean = true;
 let numbers: number[] = [1, 2, 3, 4, 5];
-
+let something:any = 29 // this can be anything, string, bool, num anything....
 --------------------------
 
 ### Interfaces
