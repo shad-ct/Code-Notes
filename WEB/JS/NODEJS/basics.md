@@ -109,3 +109,9 @@
             console.log('deleted')
         }
     })
+
+
+```
+ console.log(__dirname) // get directory 
+ console.log(__filename) // get file name 
+```
