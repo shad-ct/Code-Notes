@@ -18,6 +18,7 @@
 # else : 
 
 
-    app.get("*",function(res,req){
-        req.send("404 error")
+    app.get("*",function(req,res){
+        res.status(404); //just for incase
+        res.send("404 error")
     })
