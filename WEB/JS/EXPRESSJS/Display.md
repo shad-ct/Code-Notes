@@ -13,3 +13,11 @@
     app.get("/hello",function(res,req){
         req.send("hello page is here")
     })
+
+
+# else : 
+
+
+    app.get("*",function(res,req){
+        req.send("404 error")
+    })
