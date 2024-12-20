@@ -26,6 +26,7 @@
     db.user.find().pretty()
     db.dropDatabase :                                                       delete database
     db.user.drop() :                                                        delete collection
+    db.posts.deleteOne({ "_id": ObjectId("6764ce3dc185f49414893bf9") })     delete a document
     db.user.update({"name":"shad"},{"$set":{"age":19}}) :                   update
     db.user.insertMany([{"name" : "shad", age : 18},{"name" : jaseel}]) :   add multiple data at a time  | insert many
     db.user.find({"place" : "kannur"}).pretty() :                           find only specified data
