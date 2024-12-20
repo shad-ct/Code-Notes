@@ -7,6 +7,15 @@
   - [HTML Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/HTML/bascis.md) 🌍
   - [CSS Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/CSS/basics.md) 🎨
   - [JavaScript Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/basics.md) 💻
+    - [DOM Manipulation](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/DOM.md) 📜
+    - [Logical Operators](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/logical%20operators.md) ⚖️
+    - [OOP in JavaScript](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/oop.md) 🏗️
+    - [Projects](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/Projects) 📂
+      - [To Do List](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/Projects/todo.md) ✅
+      - [Background Change on Click](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/Projects/bg%20change%20dive%20touch.md) 🎨
+      - [Show Time and Date](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/Projects/timeShow.md) ⏰
+      - [Timer](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/Projects/timer.md) ⏳
+      - [Sum User Input](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/Projects/sum.md) ➕
   - [ReactJS Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/ReactJS/Basics.md) ⚛️
   - [ExpressJS Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/EXPRESSJS/basics.md) 🚀
   - [Bootstrap Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/BootStrap/basics.md) 🥤
@@ -24,6 +33,7 @@
   - [Pre and Post Increment](https://github.com/shad-ct/Code-Notes/blob/master/C/pre%20and%20post.md) ➕
   - [Useful Functions](https://github.com/shad-ct/Code-Notes/blob/master/C/useful.md) 🛠️
   - [Recursion](https://github.com/shad-ct/Code-Notes/blob/master/C/RECURSION.md) 🔁
+
 
 ### 📈 C++
 - [C++](https://github.com/shad-ct/Code-Notes/tree/main/C%2B%2B)
