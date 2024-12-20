@@ -49,4 +49,4 @@
 
 ### 🐍 Python
 - [Python](https://github.com/shad-ct/Code-Notes/tree/main/Python)
-  - [Basics](https://github.com/shad-ct/
+  - [Basics](https://github.com/shad-ct/Code-Notes/blob/master/Python/Pybasics.md)
