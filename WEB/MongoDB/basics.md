@@ -34,5 +34,7 @@
     db.user.find({"age" : {$lt:25}}).pretty() :                             find ppl age less than 25
     db.user.find({"age" : {$gte:25}}).pretty() :                            find ppl age greater than or equal 
     db.posts.find().sort({title:-1})                                        sort in decenting order, for ascending order, use 1 
+    db.posts.find({title : {$ne : 'blog1'} } )                              ne : not equal to
+    
     
     
