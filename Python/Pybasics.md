@@ -28,6 +28,7 @@ values = {"name":"shad", "place":"tkbd"}
 print(values.get("name"))
 
 # modules : 
+```
 main file : 
     import test 
     test.hey(10)
@@ -40,15 +41,19 @@ file 2 :
             print("num is less than 0 lol ")
         else :
             print("bruh its 0!!")
+```
 
 # to check the module name : 
+
 print(__name__)
 nb : you can also assign like this : 
     check = test.hey
     check(10)
 
 # when you wanna import only one module from the file ; 
+
     from test import hey
+    
 # rename module : 
     import test as testing 
     testing.hey(10)
@@ -146,15 +151,15 @@ nb : you can also assign like this :
     print(x)
 
 # Tkinder : 
-from tkinter import*;
-window = Tk()
-window.geometry("500x500")
-button = Button(text='Ok')
-label = Label(window,text = "Welcome")
-
-label.pack()
-button.pack()
-window.mainloop()
+    from tkinter import*;
+    window = Tk()
+    window.geometry("500x500")
+    button = Button(text='Ok')
+    label = Label(window,text = "Welcome")
+    
+    label.pack()
+    button.pack()
+    window.mainloop()
 
 
 # lambda : 
@@ -206,25 +211,25 @@ window.mainloop()
     def display(self):
         print("Name : ",self.name)
         print("Phone : ",self.phone)
+        
+    class Doctor(Person): # child1, we use (Person) to define the parent 
+        pass # use it when u aren't making anything but using the parent stuffs
+    class Patient(Person):
+        pass
     
-class Doctor(Person): # child1, we use (Person) to define the parent 
-    pass # use it when u aren't making anything but using the parent stuffs
-class Patient(Person):
-    pass
-
-Doc1 = Doctor("Shad",12812)
-Doc2 = Doctor("Jaseel",9895)
-
-Pat1 = Patient("zyn",28419)
-Pat2 = Patient("sahal",1993234)
-
-print("\nDoctors : \n")
-Doc1.display()
-Doc2.display()
-
-print("\nPatients : \n")
-Pat1.display()
-Pat2.display() 
+    Doc1 = Doctor("Shad",12812)
+    Doc2 = Doctor("Jaseel",9895)
+    
+    Pat1 = Patient("zyn",28419)
+    Pat2 = Patient("sahal",1993234)
+    
+    print("\nDoctors : \n")
+    Doc1.display()
+    Doc2.display()
+    
+    print("\nPatients : \n")
+    Pat1.display()
+    Pat2.display() 
 
 # module : 
     module.py : 
