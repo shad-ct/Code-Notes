@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 int main(){
 	int num = 1234;
@@ -10,3 +11,4 @@ int main(){
 	}
 	printf("%d",rev);
 }
+```
