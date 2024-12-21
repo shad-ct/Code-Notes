@@ -32,3 +32,4 @@ const [count,setCount] = useState('');
 useEffect(() => {
     console.log("count changed") }, [count] )
 ```
+only called when the "count" changes
