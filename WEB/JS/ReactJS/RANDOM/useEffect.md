@@ -20,3 +20,15 @@ mounting is printed when you click on the button (mount/add) and when you click 
           console.log('Unmounting........')
         }
       },[])
+
+-----------------
+when you want to know if something has changed at the specific part/component :
+
+## example : 
+```
+lets say, there a count++ using useState
+const [count,setCount] = useState('');
+
+useEffect(() => {
+    console.log("count changed") }, [count] )
+```
