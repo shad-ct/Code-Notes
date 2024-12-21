@@ -1,3 +1,4 @@
+```
 #include <stdio.h>
 #include <string.h>
 int main(){
@@ -23,10 +24,11 @@ int main(){
 		printf("string is not pal");
 	}
 }
-
+```
 
 # with our logic : 
 
+```
 #include <stdio.h>
 
 int main(){
