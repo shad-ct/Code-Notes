@@ -1,3 +1,6 @@
+
+# 📚 Code Notes
+
 ## Stars stats
 
 <p align="center">
@@ -10,7 +13,6 @@
 </a>
 </p>
 
-# 📚 Code Notes
 
 ## 📖 Index
 
