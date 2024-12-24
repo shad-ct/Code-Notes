@@ -1,3 +1,14 @@
+# THE BEST WAY!! , use axios
+```
+const axios = require('axios')
+
+const api = "https://jsonplaceholder.typicode.com/todos/1"
+axios.get(api).then((data) => {
+console.log(data.data)
+})
+```
+
+
 ## The first way : 
 
 ```
