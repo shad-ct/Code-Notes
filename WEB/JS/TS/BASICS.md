@@ -39,3 +39,13 @@ function greet(person: Person) {
     return `Hello, ${person.name}!`;
 }
 ```
+
+-----------
+
+### object : 
+```
+let obj : {name:string ; age : number} = {
+    name : "shad",
+    age : 19
+}
+```
