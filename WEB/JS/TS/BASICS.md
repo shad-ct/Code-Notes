@@ -35,8 +35,9 @@ interface Person {
     name: string;
     age: number;
 }
-function greet(person: Person) {
-    return `Hello, ${person.name}!`;
+let person1 : Person {
+    name : "shad";
+    age : 19
 }
 ```
 
