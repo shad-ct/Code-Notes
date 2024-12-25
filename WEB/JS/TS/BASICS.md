@@ -26,6 +26,15 @@ let empty : [] = [] // an empty array , you gotta specify the type for other arr
 ```
 --------------------------
 
+
+### object : 
+```
+let obj : {name:string ; age : number} = {
+    name : "shad",
+    age : 19
+}
+```
+
 ### Interfaces
 Interfaces define the structure of an object in TypeScript.
 
@@ -47,10 +56,35 @@ let person1 : Person {
 
 -----------
 
-### object : 
 ```
-let obj : {name:string ; age : number} = {
-    name : "shad",
-    age : 19
+### Type : 
+
+type Details = {
+    name : string;
+    age : number;
+    getName = () => void;
 }
+
+let userDetails : Details = {
+    name : "shad",
+    age : 19;
+    getName(){
+        console.log(this.name);
+    }
+}
+```
+
+### Union/Optional : 
+NB : this can be for any data type even type or even interface . eg : 
+
+```
+type Details = {
+    name : string;
+    age : number | string;  // one can enter the age as string or integer
+    getName = () => void;
+}
+
+in the case of array :
+
+let name : (string|number)[] = [1,"shad"]
 ```
