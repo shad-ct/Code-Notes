@@ -74,7 +74,7 @@ let userDetails : Details = {
 }
 ```
 
-### Union/Optional : 
+### Union : 
 NB : this can be for any data type even type or even interface . eg : 
 
 ```
@@ -88,3 +88,13 @@ in the case of array :
 
 let name : (string|number)[] = [1,"shad"]
 ```
+
+### Optional : 
+it means that you can either enter it or not. Not necessary. eg : 
+
+```
+type Details = {
+    name : string;
+    age ?: number; // here you can either your age or not. and you can continue . yet you cannot change the type though. cannot to string i mean.
+}
+``` 
