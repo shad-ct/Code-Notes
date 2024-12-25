@@ -56,8 +56,8 @@ let person1 : Person {
 
 -----------
 
-```
 ### Type : 
+```
 
 type Details = {
     name : string;
@@ -72,6 +72,12 @@ let userDetails : Details = {
         console.log(this.name);
     }
 }
+
+
+// Named Types
+type StatusType = "pending" | "completed" | "failed";
+
+let currentStatus: StatusType = ""; //shows reccomentation :  "completed" or "failed" or "pending"
 ```
 
 ### Union : 
