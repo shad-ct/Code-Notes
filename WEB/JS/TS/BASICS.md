@@ -34,10 +34,14 @@ Eg :
 interface Person {
     name: string;
     age: number;
+    getname : () => void;
 }
 let person1 : Person {
     name : "shad";
-    age : 19
+    age : 19,
+    getName(){
+        consolce.log(this.name)
+    }
 }
 ```
 
