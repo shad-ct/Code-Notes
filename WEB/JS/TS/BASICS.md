@@ -18,6 +18,11 @@ let name: string = "Bob"
 let isStudent: boolean = true
 let numbers: number[] = [1, 2, 3, 4, 5]
 let something:any = 29 // this can be anything, string, bool, num anything....
+
+
+array of string :
+let arr : string[] = ["shad","hey"]
+let empty : [] = [] // an empty array , you gotta specify the type for other arrays
 ```
 --------------------------
 
