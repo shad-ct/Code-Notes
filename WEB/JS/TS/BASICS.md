@@ -98,3 +98,24 @@ type Details = {
     age ?: number; // here you can either your age or not. and you can continue . yet you cannot change the type though. cannot to string i mean.
 }
 ``` 
+
+### Functions : 
+
+```
+// nb : the Details is the details above in Optional/Union
+function getUserName(userDetail: Details, adminDetail: Details) {
+  return userDetail.name;
+}
+
+getUserName(userDetail, adminDetail);
+
+
+another way :
+
+
+function getUserName({ name, age }: { name: string; age: number}) {
+  return userDetail.name;
+}
+
+getUserName({ name: "Debug Media", age: 20 });
+```
