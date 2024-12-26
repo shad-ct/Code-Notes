@@ -142,9 +142,12 @@ add("2", "2"); // 22
 ### Generics : 
 <T>, it can be anything T or whatever. when used, the function infers the data type hence we can pass any type of data... better than "any" keyword
 
+```
 function getAge<T>(age: T): T {
     return age;
 }
 
 getAge<string>("20");
 getAge<number>(20);
+```
+
