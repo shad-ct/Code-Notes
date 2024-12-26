@@ -125,3 +125,26 @@ function getUserName({ name, age }: { name: string; age: number}) {
 
 getUserName({ name: "Debug Media", age: 20 });
 ```
+
+### function overloading : 
+```
+function add(num1: number, num2: number): number;
+function add(num1: string, num2: string): string;
+function add(num1: any, num2: any): any {
+    return num1 + num2;
+}
+
+add(2, 2); // 4
+add("2", "2"); // 22
+
+```
+
+### Generics : 
+<T>, it can be anything T or whatever. when used, the function infers the data type hence we can pass any type of data... better than "any" keyword
+
+function getAge<T>(age: T): T {
+    return age;
+}
+
+getAge<string>("20");
+getAge<number>(20);
