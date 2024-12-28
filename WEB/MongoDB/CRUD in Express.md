@@ -37,7 +37,7 @@ app.listen(8080)
 
 
 
-mongoose.connect('mongodb+srv://mern123:mern123@mernproject.xokaf.mongodb.net/Node-API?retryWrites=true&w=majority&appName=mernproject')
+mongoose.connect('mongodb+srv://mern123:<pass>@mernproject.xokaf.mongodb.net/Node-API?retryWrites=true&w=majority&appName=mernproject')
   .then(() => console.log('Connected!'))
   .catch(() => {
     console.log('error found')
