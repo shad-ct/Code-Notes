@@ -164,3 +164,51 @@ app.get("/getUsers", async (req, res) => {
 PORT = 8000
 MONGO_URL = "mongodb://localhost:27017/dbconnect"
 ```
+
+
+
+
+-------------------------------
+---------------------------------
+---------------------------------
+----------------------------------
+
+
+
+
+
+```
+const express = require("express");
+const mongoose = require("mongoose"); 843.3k (gzipped: 228.1k)
+
+const app = express();
+
+//1 connect to mongodb
+mongoose.connect("mongodb://127.0.0.1:27017/testDB")
+
+//2 check
+const db = mongoose.connection;
+
+db.on("error", console.error.bind(console, "connection error: "));
+db.once("open", function () {
+    console.log("Connected successfully");
+});
+
+//3 create schema
+const userSchema = new mongoose.Schema({
+    name: String,
+    age: Number
+})
+
+//4 create model
+const UserModel = new mongoose.model("User", userSchema)
+
+app.get("/", async (req, res) => {
+    const data = await UserModel.create({name: "manu", age: 13})
+    res.send("hello");
+})
+
+app.listen(3000, () => {
+    console.log("server running on port 3000");
+});
+```
