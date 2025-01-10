@@ -22,4 +22,15 @@ const cls = searchParams.get('class'):
 
 output : 10
 
+
+
+{data 
+    .filter((item) => {
+        if (!cls) {
+            return true;
+        }
+        return cls === item.class;
+    });
+}
+
 ```
