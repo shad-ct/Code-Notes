@@ -1,7 +1,5 @@
 # 📚 Code Notes
-
 ## Stars stats
-
 <p align="center">
 <a href="https://star-history.com/#shad-ct/Code-Notes">
   <picture>
@@ -11,7 +9,6 @@
   </picture>
 </a>
 </p>
-
 
 ## 📖 Index
 
