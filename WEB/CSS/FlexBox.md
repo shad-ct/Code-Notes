@@ -23,8 +23,10 @@
 ### flex-direction:row-reverse;
 ![image](https://github.com/user-attachments/assets/640f857e-4c2d-42f8-9fad-5b0cca4932ae)
 
+### flex-direction : column;
+![image](https://github.com/user-attachments/assets/40f39bc2-61a2-44cf-89cd-304aa63974b1)
 
-
-
+### flex-direction : row-reverse; justify-content : start;
+![image](https://github.com/user-attachments/assets/06e6e616-a384-4826-943d-630d667acee5)
 
 
