@@ -63,3 +63,18 @@ foundSome = names.some((name) => {
 console.log(foundEvery)
 console.log(foundSome)
 ```
+# 6. Reduce
+```
+var numbers = [10,20,30]
+var sum = 0;
+
+var output = numbers.reduce( (sum,num) => {
+    return sum + num
+},0) // the 0 here is initial value to set. if u put 10 it i'll go 70 instead of 60
+
+console.log(output)
+```
+
+-----------------------------------------------------
+
+# ES6 Shits 
