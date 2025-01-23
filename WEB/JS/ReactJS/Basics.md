@@ -8,3 +8,35 @@ hello
 
     > App.js
     import './style.css'
+
+
+# props : 
+
+```
+// pro.jsx
+
+function pro(props) {
+const {a, name} = props
+  return (
+    <div>
+      <h1>{props.a}</h1>
+      <h1>{props.name}</h1>
+      <h1>{name}</h1>
+      <h1>{a}</h1>
+    </div>
+  )
+}
+
+
+
+// App.jsx
+
+function App() {
+  const a = 10;
+  return (
+    <>
+      <Pro name = "shad" a = {a}/>
+    </>
+  )
+}
+```
