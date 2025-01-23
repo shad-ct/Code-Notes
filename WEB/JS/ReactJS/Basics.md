@@ -40,3 +40,32 @@ function App() {
   )
 }
 ```
+
+
+### another method : 
+
+```
+// pro.jsx
+
+function pro({ name, age }) {
+  return (
+    <div>
+      <h1>{name}</h1>
+      <h1>{age}</h1>
+    </div>
+  )
+}
+
+// App.jsx
+
+function App() {
+  const a = {
+    name : 'shad',age : 25,}
+  return (
+    <>
+      <Pro {...a} />
+    </>
+  )
+}
+```
+
