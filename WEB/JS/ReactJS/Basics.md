@@ -69,3 +69,17 @@ function App() {
 }
 ```
 
+### or : 
+
+```
+function pro({...a}) {
+  return (
+    <div>
+    <h1>{a.age}</h1>
+    </div>
+  )
+}
+```
+
+
+# remember : return statement happens when unmounting (hiding)
