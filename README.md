@@ -1,3 +1,4 @@
+-----------------------------
 # 📚 Code Notes
 ## Stars stats
 <p align="center">
