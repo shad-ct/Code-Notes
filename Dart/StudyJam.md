@@ -64,7 +64,44 @@ for(int i =0 ; i<10; i++){
   print('hello');
 }
 
-
-
 }
 ```
+
+
+# Day 2 : 
+
+## Constructor : 
+```
+void main() {
+  var a = Food('apple','100');
+  print(a.apple);
+  print(a.portion);
+}                               
+  class Food{
+    String apple;
+    String portion;
+    
+    Food(this.apple, this.portion);
+  }
+```
+
+
+## Inheritance : 
+```
+void main() {
+  // inheritance
+  var a = Apple();
+  a.apple = 'something';
+  a.portion = '100%';
+}
+
+class Food {
+  String? apple;
+  String? portion;
+}
+
+class Apple extends Food{
+  
+}
+```
+
