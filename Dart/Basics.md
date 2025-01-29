@@ -1,3 +1,8 @@
+# create a project in dart : 
+```
+dart create helloWorld
+```
+
 ## Input and Output
 
 
