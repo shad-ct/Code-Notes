@@ -68,7 +68,7 @@ for(int i =0 ; i<10; i++){
 ```
 
 
-# Day 2 : 
+# Day 02 : 
 
 ## Constructor : 
 ```
