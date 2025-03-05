@@ -1,3 +1,12 @@
+# IN PSQL !!!!
+```
+                                 list all db :
+\l
+
+                                  to switch to a db :
+\c dbname
+```
+
 # Create a DB : 
 ```
 CREATE DATABASE dbName;
