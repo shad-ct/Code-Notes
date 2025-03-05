@@ -117,16 +117,36 @@ SELECT * FROM student;
 TRUNCATE student;
 ```
 
+# Show only n number of data : 
+```
+SELECT * FROM student
+LIMIT 1;
 
+// to get random :
+ORDER BY rand()
+LIMIT 1;
+```
 
+# Arithmetic Operators : 
+```
+SELECT 10 - 2 AS result;
+```
 
+# Comparision Operators : 
+```
+SELECT 10 < 20 AS result;
+// 0 (false)
 
+SELECT * FROM student
+WHERE age BETWEEN 10 AND 20;
+```
 
-
-
-
-
-
+# Get name starting form a
+```
+SELECT * FROM student
+WHERE student_name LIKE 'a%';
+```
+ 
 
 
 
