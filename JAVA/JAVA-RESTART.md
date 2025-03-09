@@ -1,15 +1,15 @@
 # JAVA-RESTART
 
 
-// array
-    int[] arr = { 1, 2, 3, 4, 5, };
-    String[] fruits = {"Apple","Banana"};
+    // array
+        int[] arr = { 1, 2, 3, 4, 5, };
+        String[] fruits = {"Apple","Banana"};
 
 
 # method overloading
 
 
-
+```
     public class Main {
     static int findSum(int a, int b) {
         return a + b;
@@ -35,13 +35,13 @@
     }
 }
 
-
+```
 # class : group of same type of objects (eg : electronics)
 # object : member of class , tv, smartphone, laptop, pc etc.. we can call its class as electronics 
 # attributes : properties of the object (color, model name, price etc )
 # methods : functions we can do with the object (to call, take photo , message )
 
-
+```
 public class SmartPhone {
     /*
      * the SmartPhone here is the class , model,price and manufacture are the attributes 
@@ -61,12 +61,13 @@ public class Main {
 
     }
 }
+```
 ----------------------------------------------------
 
 
 # Polymorphism
 # method overriding
-
+```
 public class Main {
     public static void main(String a[]) {
         India I1 = new India();
@@ -79,7 +80,6 @@ public class Main {
 
     }
 }
-
 
 public class India {
     public void speaking() {
@@ -97,12 +97,16 @@ class Delhi extends India {
     }
 }
 
+```
+
+```
 class Kerala extends India {
     // method overriding
     public void speaking() {
         System.out.println("Hello, I can speak Malayalam");
     }
 }
+```
 ----------------------------------------------------
 
 
@@ -111,7 +115,7 @@ class Kerala extends India {
 # jre : java runtime env , extra classes/files . part of jvm 
 # jvm : java virtual machine , where the code run : 
 
-
+```
 
 class calc {
     int i = 10; // this i is the instils which belongs to heap memory , not stack
@@ -123,6 +127,9 @@ class calc {
         return 0;
     }
 }
+```
+
+```
 
 public class mains {
     public static void main(String[] args) {
@@ -135,7 +142,7 @@ public class mains {
     }
 }
 
-
+```
 # another way to print loop : 
 
         int num[] = { 1, 2, 3, 4, 21, 123, 12, 312, 312, 312, };
@@ -146,7 +153,7 @@ public class mains {
 # string constant pool : did you know that java doesnt create new data space for data which are same? they just link it with the memory address in string tho | mutable string : can be changed immutable cannot be . default strings are immutable . use string buffer or string builder to make mutable strings 
 
 
-
+```
 public class sup{
     int a = 10;b=20;
     sup(int a, int b){
@@ -157,7 +164,7 @@ public class sup{
         SOP(a + " "+ b); 
     }
 }
-
+```
 # inheritance : 
     -- single : when only 1 class under
     -- multilevel : when more than 1 class under linear
@@ -171,6 +178,9 @@ public class sup{
     }
 
 # abstraction 
+
+```
+
  abstract class Hello{
     abstract void onText(String text); // no need {} in abstract 
  }
@@ -194,3 +204,5 @@ public class sup{
         t.scan();
     }
  }
+
+```
