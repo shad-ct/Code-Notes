@@ -49,7 +49,7 @@
     console.log(player1.name)
 
 # inheritance :  
-
+```
 class main{
         constructor(name,id){
             this.name=name;
@@ -60,7 +60,7 @@ class subClass extends main{
 }
 let player1 = new subClass("shad","01") ;
     console.log(player1.name)
-
+```
 # heap and stack memory : 
     in stack the data is copied and pasted      // scope inside a {}
     in heap the data's position/code is used    // scope inside the whole project 
