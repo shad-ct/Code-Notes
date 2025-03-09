@@ -119,6 +119,7 @@ let player1 = new subClass("shad","01") ;
     })
 
 # Find 
+```
     const arr =[
     {
       name : 'ahsd',
@@ -134,7 +135,7 @@ let player1 = new subClass("shad","01") ;
   })
 
   console.log(sup)
-
+```
 
 # use filter instead of find to get more than one result which matches the rule
 
