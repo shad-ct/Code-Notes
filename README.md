@@ -115,19 +115,5 @@
             └── restart.md
 </pre>
 
-/*
-## 📖 Index
-
-### 🌐 Web
-- [Web](https://github.com/shau-14/Code-Notes/blob/master/WEB)
-  - [HTML Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/HTML/bascis.md) 🌍
-  - [CSS Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/CSS/basics.md) 🎨
-  - [JavaScript Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/javascript/basics.md) 💻
-  - [ReactJS Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/ReactJS/Basics.md) ⚛️
-  - [ExpressJS Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/JS/EXPRESSJS/basics.md) 🚀
-  - [Bootstrap Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/BootStrap/basics.md) 🥤
-  - [MongoDB Basics](https://github.com/shad-ct/Code-Notes/blob/master/WEB/MongoDB/basics.md) 🍃
-  - [Firebase in React](https://github.com/shad-ct/Code-Notes/blob/master/WEB/Firebase/in%20react.md) 🔥
-
 
 
