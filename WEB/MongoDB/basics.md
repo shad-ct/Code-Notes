@@ -2,6 +2,7 @@
     sudo systemctl start mongod
     sudo systemctl status mongod
 
+![image](https://github.com/user-attachments/assets/a82426f5-d7e8-4be9-9550-fcf8554efe98)
 
 # in sql we use table/structured data but in no sql its ab key-values 
 
