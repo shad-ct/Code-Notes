@@ -29,6 +29,50 @@ This note provides a comprehensive overview of psql commands, ranging from basic
 * **`\?`**:
     * **Use Case**: Display help for SQL syntax.
 
+## CRUD Operations (Create, Read, Update, Delete) - Focused Section
+
+These commands specifically handle the core CRUD operations within a database.
+
+* **CREATE (INSERT):**
+    * **`INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);`**
+        * **Use Case:** Adds new rows of data into a table.
+        * **Example:**
+            ```sql
+            INSERT INTO employees (employee_id, first_name, last_name, department)
+            VALUES (101, 'Alice', 'Smith', 'Sales'),
+                   (102, 'Bob', 'Johnson', 'Engineering');
+            ```
+* **READ (SELECT):**
+    * **`SELECT column1, column2, ... FROM table_name WHERE condition;`**
+        * **Use Case:** Retrieves data from one or more tables based on specified criteria.
+        * **Example:**
+            ```sql
+            SELECT first_name, last_name, department FROM employees WHERE department = 'Engineering';
+            ```
+* **UPDATE:**
+    * **`UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;`**
+        * **Use Case:** Modifies existing data within a table.
+        * **Example:**
+            ```sql
+            UPDATE employees SET department = 'Marketing' WHERE employee_id = 101;
+            ```
+* **DELETE:**
+    * **`DELETE FROM table_name WHERE condition;`**
+        * **Use Case:** Removes specific rows of data from a table.
+        * **Example:**
+            ```sql
+            DELETE FROM employees WHERE employee_id = 102;
+            ```
+
+* **TRUNCATE:**
+    * **`TRUNCATE TABLE table_name;`**
+        * **Use Case:** Deletes all rows from a table, but leaves the table structure intact. This is faster than DELETE when you need to remove all data.
+        * **Example:**
+            ```sql
+            TRUNCATE TABLE employees;
+            ```
+
+
 ## Data Manipulation and Queries
 
 * **`SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ... LIMIT ... OFFSET ...`**:
