@@ -54,10 +54,32 @@ console.log('File written successfully!');
 
 
 <details>
-  <summary># </summary>
+  <summary>Routing </summary>
 
 ```
+const http = require('http');
+const fs = require('fs');
 
+const home = fs.readFileSync('./index.html');
+
+const Server = http.createServer((req, res) => {
+    let path = req.url;
+
+    if(path === '/') {
+        res.end(`${home}`);
+    }
+    else if(path === '/about') {
+        res.end('about page')
+    }
+    else if(path === '/contact') {
+        res.end('contact page')
+    }
+    else {
+        res.writeHead(404, {'Content-Type': 'text/html'});
+        res.end('<h1>404 Not Found</h1>');
+    }
+})
+Server.listen(2000);
 ```
 </details>
 
