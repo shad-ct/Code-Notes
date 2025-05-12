@@ -83,3 +83,18 @@ Server.listen(2000);
 ```
 </details>
 
+
+
+<details>
+  <summary>Setting headers for Response</summary>
+
+```
+res.writeHead(200); || or
+
+
+res.writeHead(200, {
+    'Content-Type': 'text/html',
+    'custom-header' : 'hello this is a custom header lol '
+ });
+```
+</details>
