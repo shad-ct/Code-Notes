@@ -28,7 +28,9 @@
     // to open you can do eg : http://localhost:2000/img.png or even the folders inside the public folder 
 
 # Express Router : 
-> Module.js 
+we write these file for each of the routes (eg : user, products etc..).  here is an example of product routes.. for get, post , del, and put methods.
+
+> product.js 
 ```
     const express = require('express')
     const router = express.Router()
@@ -54,9 +56,9 @@
     const express = require('express')
     const app = express()
     const path = require('path')
-    const moduleRouter = require('./routes/module.js')
+    const productRouter = require('./routes/product.js')
     
-    app.use('/module',moduleRouter)
+    app.use('/product',productRouter)
     
     app.listen(2000, function(req,res){
         console.log('server is running on port 2000')
