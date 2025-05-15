@@ -91,3 +91,29 @@ it is the accessing of variables of functions even before it is initialized. (by
 
 reason : 
 even before executing the code, the varaibles will be set as undefined by the JS itself. in the case of functions, when the function is called , the whole code of the function is called 
+
+# First class function : 
+in JS, Functions has the ability to pass another function as parameter and also return functions, this property of JS is called First Class Function.
+
+# Call Back function : 
+passing an annyonomus function to another function as parameter
+
+eg : 
+```
+function x(y) {
+    console.log("x called");
+    y();
+}
+
+x(function () {
+    console.log("anon called");
+})
+
+```
+use : JS is a sync language, to make it async . it is even used in setTimout, setInterval etc..
+
+
+# Higher order Function : 
+
+a function that takes another function as argument or returns a function as a value 
+
