@@ -28,7 +28,8 @@
     // to open you can do eg : http://localhost:2000/img.png or even the folders inside the public folder 
 
 # Express Router : 
-        > Module.js 
+> Module.js 
+```
     const express = require('express')
     const router = express.Router()
     
@@ -47,7 +48,9 @@
     })
     
     module.exports = router 
-        > app.js
+```
+> app.js
+   ```
     const express = require('express')
     const app = express()
     const path = require('path')
@@ -58,8 +61,9 @@
     app.listen(2000, function(req,res){
         console.log('server is running on port 2000')
     })
-
+```
 ## Route parameters 
+
     //const {id} = req.params
     //if(id == 'hi')   
 
