@@ -75,6 +75,19 @@ var output = numbers.reduce( (sum,num) => {
 console.log(output)
 ```
 
+# 7. sort : 
+
+```
+let numbers = [4, 2, 9, 1];
+numbers.sort(); 
+console.log(numbers); // Output: [1, 2, 4, 9]
+```
+
+
 -----------------------------------------------------
 
-# ES6 
+# Hoisting : 
+it is the accessing of variables of functions even before it is initialized. (by default functions can be called before initilization). a display function cannot be accessed though.
+
+reason : 
+even before executing the code, the varaibles will be set as undefined by the JS itself. in the case of functions, when the function is called , the whole code of the function is called 
