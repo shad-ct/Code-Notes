@@ -165,3 +165,47 @@ let player1 = new subClass("shad","01") ;
         console.log(name)
     }
 
+
+# constructor and class : 
+
+```
+
+class Employee {
+  constructor(name,salary,position){
+    this.peeru = name;
+    this.paisa = salary;
+    this.position = position;
+  }
+  
+  getSalary(){
+    console.log("ente peeru : "+this.name + "\nenikk kittunna shambalam : " + this.paisa + "\nente position : " +this.position);
+  }
+}
+
+let emp1 = new Employee("shad",100,"react dev")
+
+console.log(emp1.peeru)
+```
+
+
+# Inheritance : 
+from the above code, 
+```
+
+class Manager extends Employee { // Class names should generally be capitalized
+  constructor(name, salary, position, department) { // Add parameters for inherited properties and new ones
+    super(name, salary, position); // Call parent constructor with relevant arguments
+    this.department = department; // Add new property specific to Manager
+  }
+  getDept(){
+      console.log('ente dept : ' + this.department)
+  }
+
+}
+
+let man1 = new Manager('adel', 200, 'Senior Manager', 'IT'); // Pass all required arguments
+
+man1.getSalary(); // You can also still call methods from the parent class
+
+man1.getDept()
+```
