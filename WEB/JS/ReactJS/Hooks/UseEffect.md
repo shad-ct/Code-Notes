@@ -38,5 +38,11 @@ So, with dependency, it will run 2 times, when rendering for the first time and 
       .catch( (e) => console.log(e.message) );
   }, [])
 ```
+because we have used empty array at the end, this code will only execute once. but if there were no empty array or anything, it will run after every render
 
 
+a typical useffect looks like : 
+
+useEffect(function , [dependency])
+
+the dependency is mainly an array, which tells when to re-render the whole page. here, whenever the dependency changes the callback functions is called. 
