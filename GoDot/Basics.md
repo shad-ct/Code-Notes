@@ -31,11 +31,11 @@
 > select the frame in order or movement. Also make sure to conver the texure into nearest.
 ![image](https://github.com/user-attachments/assets/a315abae-f55c-422a-b366-00fd159cbcdd)
 
-
+----------------------------------
 # Adding script to the character : 
 ![image](https://github.com/user-attachments/assets/e9b6bd5d-5dbe-43d6-a6d0-b35bef3c9c09)
 
-
+----------------------------------
 # Making floor solid : 
 
 ![image](https://github.com/user-attachments/assets/77814ef1-709b-440c-a4c6-bf1cf9b02c8b)
