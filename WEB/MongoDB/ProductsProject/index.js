@@ -12,8 +12,7 @@ app.use(express.urlencoded({extended: false}));
 // routes
 app.use("/api/products", productRoute);
 
-mongoose
-  .connect("mongodb://127.0.0.1:27017/testdb")
+mongoose.connect("mongodb://127.0.0.1:27017/testdb")
   .then(() => {
     console.log("Connected to database!");
     app.listen(3000, () => {
