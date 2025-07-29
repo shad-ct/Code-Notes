@@ -78,3 +78,43 @@ int main() {
     
 }
 ```
+
+# Encapsulation : 
+binding of data(attributes & methods) in a class in to a single unit. 
+### To achiece : 
+1. declare var as private
+2. view of modify var vals via publics getter (read only) and setter (write only) methods
+
+### Advantages : 
+1. increase data security 
+2. increase readability and flexibility 
+3. reusability 
+
+```
+
+#include <iostream>
+using namespace std;
+
+class bankACC{
+private:
+    int acBalance;
+
+public:
+    //getter and setter : 
+    
+    void setBalance(int b){
+        acBalance = b;
+    }
+    
+    int getBalance(){
+        return acBalance;
+    }
+};
+
+int main()
+{
+    bankACC ac1;
+    ac1.setBalance(10000);
+    cout << ac1.getBalance();
+}
+```
