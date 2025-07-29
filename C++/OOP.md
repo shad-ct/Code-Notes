@@ -118,3 +118,14 @@ int main()
     cout << ac1.getBalance();
 }
 ```
+
+
+
+# Abstraction : 
+- hiding the implementation details form the user 
+- only the functionality will be provided to the user
+
+ ### Advantages : 
+ 1. security 
+ 2. simplicity 
+
