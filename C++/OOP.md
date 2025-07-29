@@ -129,3 +129,29 @@ int main()
  1. security 
  2. simplicity 
 
+```
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class GoogleSearch{
+private:
+  string searchText;
+  string searchResult;
+  
+  void searchProcess(){
+      searchResult = "results about : " + searchText;
+      cout << searchResult <<endl;
+  }
+public : 
+    void search(string text){
+        searchText = text;
+        searchProcess();
+    }
+};
+
+int main() {
+    GoogleSearch search1;
+    search1.search("hello");
+}
+```
