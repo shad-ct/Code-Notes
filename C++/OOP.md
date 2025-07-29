@@ -155,3 +155,61 @@ int main() {
     search1.search("hello");
 }
 ```
+
+# Constructor : 
+
+
+
+    role is to initilize objects. 
+    when an object is created, constructor is called automatically..
+    constructor should be public and also no return value 
+
+```
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class Electronics {
+ public : 
+ string item ;
+ string brand;
+ 
+ Electronics(){
+     cout << "constructor callled";
+ }
+};
+
+
+int main() {
+    Electronics e1;
+}
+```
+
+### Prametrized constructor : 
+```
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class Electronics {
+ public : 
+ string item ;
+ string brand;
+ 
+ Electronics(string i, string b){
+     item = i;
+     brand = b;
+     cout << "constructor callled";
+ }
+ void print(){
+     cout << " Item : " << item << "Brand : " << brand << endl;
+ }
+};
+
+
+int main() {
+    Electronics e1("TV", "Sony");
+    
+    e1.print(); 
+}
+```
