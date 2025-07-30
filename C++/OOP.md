@@ -226,7 +226,8 @@ achieve polymorphism in following ways :
 advantage : code resuability 
 
 
-
+### Function Overriding : 
+rewriting the function in parent class, and making it to something else in child class
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
