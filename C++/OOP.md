@@ -213,3 +213,59 @@ int main() {
     e1.print(); 
 }
 ```
+
+# Polymorphism : 
+
+perform single action in different ways
+if you know all lang in india, you'll speak based on the place you are in . the main thing you doing is speaking
+
+achieve polymorphism in following ways : 
+1. function overrriding 
+2. function overloading
+3. operation overloading . 
+advantage : code resuability 
+
+
+
+```
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class India{
+public : 
+    void speak(){
+        cout << "i can speak indian lang";
+    }
+    
+    
+
+};
+
+    class Delhi : public India{
+        public : 
+    void speak(){
+        cout << "i can speak Hindi lang";
+    }
+    };
+    
+    class Kerala : public India{
+        public : 
+        void speak(){
+        cout << "i can speak Malayalam lang";
+    }
+    };
+    
+
+
+int main() {
+    India i1;
+    Kerala k1;
+    Delhi d1;
+    
+    i1.speak();
+    k1.speak();
+    d1.speak();
+}
+
+```
