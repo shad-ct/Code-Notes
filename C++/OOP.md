@@ -5,7 +5,6 @@ A class is a blueprint or template for creating objects. It defines the properti
 🐶 Object: The Instance
 An object is an actual instance of a class. It’s a concrete entity that has real values for the attributes defined in the class and can perform the behaviors.
 
-
 ```
 #include <iostream>
 using namespace std;
@@ -33,6 +32,12 @@ attribute : make, model-name, price
 methods : call , disconnect, pic 
 
 # Inheritance 
+Once class acquires the properties of another class.
+Advantages : 
+- code reusability
+- increase readibilty
+- easy modification 
+child class inherte the properties of the parent class.
 
 ```
 // Online C++ compiler to run C++ program online
