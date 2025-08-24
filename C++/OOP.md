@@ -1,4 +1,11 @@
 # Class & Object : 
+🧱 Class: The Blueprint
+A class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that the objects created from it will have.
+
+🐶 Object: The Instance
+An object is an actual instance of a class. It’s a concrete entity that has real values for the attributes defined in the class and can perform the behaviors.
+
+
 ```
 #include <iostream>
 using namespace std;
@@ -21,6 +28,9 @@ int main() {
     cout << mob1.showDetails();
 }
 ```
+
+attribute : make, model-name, price
+methods : call , disconnect, pic 
 
 # Inheritance 
 
