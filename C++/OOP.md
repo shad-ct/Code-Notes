@@ -15,7 +15,7 @@ class Mobile{
     string name;
     void showDetails(){
       cout<<"ID : " << id << endl;
-      cout<<"Name : " << name <<endl;
+      cout<<"Name : " << name <<endl; 
     }
 };
 
@@ -261,7 +261,8 @@ advantage : code resuability
 
 
 ### Function Overriding : 
-rewriting the function in parent class, and making it to something else in child class
+rewriting the function in parent class, and making it to something else in child class.
+we just overridden the function in the parent class, rewrote it in the child class. 
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -272,13 +273,10 @@ public :
     void speak(){
         cout << "i can speak indian lang";
     }
-    
-    
-
 };
 
     class Delhi : public India{
-        public : 
+        public :  
     void speak(){
         cout << "i can speak Hindi lang";
     }
@@ -304,3 +302,34 @@ int main() {
 }
 
 ```
+### Function overloading : 
+same function name but with different parameter data type, different operations or function.
+```
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class findSum{
+public:
+    void sum(int a, int b ){
+        cout << a + b <<endl;
+    }
+    void sum(int a, int b, int c){
+        cout << a + b+c;
+    }
+};
+
+
+
+int main() {
+    findSum s1,s2;
+    s1.sum(10,20);
+    s2.sum(2,2,3);
+}
+```
+
+### Operator overloading : 
+provide special meanign of an operator for a user-defined data type (objects & structure)
+cannot use for built-in types (float, char, int etc.)
+
+
