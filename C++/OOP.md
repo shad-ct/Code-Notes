@@ -20,7 +20,7 @@ class Mobile{
 };
 
 int main() {
-    Mobile mob1;
+    Mobile mob1;w
     mob1.id = 1;
     mob1.name = "kello";
     
@@ -175,9 +175,9 @@ int main() {
 
 
 
-    role is to initilize objects. 
-    when an object is created, constructor is called automatically..
-    constructor should be public and also no return value 
+  role is to initilize objects. 
+  when an object is created, constructor is called automatically..
+  constructor should be public and also no return value 
 
 ```
 // Online C++ compiler to run C++ program online
@@ -229,6 +229,25 @@ int main() {
 }
 ```
 
+```
+// Oanother eg of parametrized 
+#include <iostream>
+using namespace std;
+
+class student{
+ public :
+  int age;
+  string name;
+  
+  student(string name){
+      cout<< "Hello " << name <<endl;
+  }
+};
+
+int main() {
+    student st1("shad"),st2("adel");
+}
+```
 # Polymorphism : 
 
 perform single action in different ways
