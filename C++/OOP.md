@@ -332,4 +332,38 @@ int main() {
 provide special meanign of an operator for a user-defined data type (objects & structure)
 cannot use for built-in types (float, char, int etc.)
 
+```
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class Object{
+    
+  private:
+    int a;
+    
+    
+  public : 
+  
+  void operator ++(){
+      a = a + 5;
+  }
+  
+  
+  Object(){
+    a = 5;
+  }  
+  void print(){
+      cout << a<< endl;
+  }
+};
+
+
+
+int main() {
+    Object obj1;
+    ++obj1;
+    obj1.print();
+}
+```
 
