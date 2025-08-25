@@ -7,7 +7,7 @@ let heading = document.querySelector('.he')
 
 # if else short
 
-console.log(sup ? "print if true" : "this if false")
+    console.log(sup ? "print if true" : "this if false")
 
 # Modules in JS 
     <script>
@@ -47,3 +47,38 @@ console.log(sup ? "print if true" : "this if false")
     <scirpt type = "module" src =">
         import {cart} from '/file1.js'
 
+
+# Exporting modules : 
+```
+// greetings.js :
+function hello(){
+    console.log("hello");
+}
+module.exports = hello;   => to export multiple . module.exports = {funtion1, function2}
+
+
+//index.js :
+const greet = require('./greetings')  => to import multiple . const {funtion1, function2} = require('./greeetings')
+greet()
+ 
+```
+
+method 2 : 
+
+```
+export function hello(){
+    
+}
+
+import {hello} from "./greetings.js"
+```
+
+
+method 3 : 
+
+```
+export default function hello(){
+}
+
+import hello from "./greetings.js"
+```
