@@ -1,3 +1,4 @@
+# Class & Object : 
 <details>
   <summary> Class & Object :  </summary>
   
@@ -35,6 +36,7 @@ methods : call , disconnect, pic
 
 </details>
 
+# Inheritanc
 
 <details>
   <summary> Inheritance </summary>
@@ -148,7 +150,7 @@ class statement:public student, public sport{
 
 </details>
 
-
+# Encapsulation
 <details>
   <summary> Encapsulation : </summary>
 
@@ -199,7 +201,7 @@ int main()
 </details>
 </details>
 
-
+# Abstraction
 <details>
   <summary>Abstraction</summary>
   
