@@ -46,6 +46,10 @@ Advantages :
 - easy modification 
 child class inherte the properties of the parent class.
 
+<details>
+  <summary>Code</summary>
+  
+
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -100,6 +104,7 @@ int main() {
     
 }
 ```
+</details>
 <details>
     <summary>01 Single Inheritance</summary>
     
@@ -110,17 +115,32 @@ int main() {
 
 <details>
     <summary>02 Multiple Inheritance</summary>
-
   
+  - single derived class may inherit from 2 or more base classes
+  - derived class with several base class 
+  <img width="593" height="287" alt="image" src="https://github.com/user-attachments/assets/2bebaf44-4e56-4dcf-b6f2-7e1e797ebff9" />
+
+```
+class statement:public student, public sport{
+
+}
+```
+
 </details>
+
 <details>
     <summary>03 Hierarchical Inheritance</summary>
-    Foldable Content[enter image description here][1]
+- several classes are derived form common base class
+<img width="538" height="222" alt="image" src="https://github.com/user-attachments/assets/05f5b47f-3606-4340-bcce-440d234deb74" />
+
+    
 </details>
+
 <details>
     <summary>04 Multilevel Inheritance</summary>
     Foldable Content[enter image description here][1]
 </details>
+
 <details>
     <summary>05 hybrid/virtual Inheritance</summary>
     Foldable Content[enter image description here][1]
@@ -128,7 +148,7 @@ int main() {
 
 </details>
 
-#  
+
 # Encapsulation : 
 binding of data(attributes & methods) in a class in to a single unit. 
 ### To achiece : 
