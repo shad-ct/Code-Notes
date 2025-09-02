@@ -93,6 +93,31 @@ int main() {
     
 }
 ```
+<details>
+    <summary>01 Single Inheritance</summary>
+    
+  - when a single class is derived from one base class. 
+  - most simplest.
+<img width="343" height="204" alt="image" src="https://github.com/user-attachments/assets/525d7ea8-4701-44c7-9e93-cdb2098eb345" />
+</details>
+
+<details>
+    <summary>02 Multiple Inheritance</summary>
+
+  
+</details>
+<details>
+    <summary>03 Hierarchical Inheritance</summary>
+    Foldable Content[enter image description here][1]
+</details>
+<details>
+    <summary>04 Multilevel Inheritance</summary>
+    Foldable Content[enter image description here][1]
+</details>
+<details>
+    <summary>05 hybrid/virtual Inheritance</summary>
+    Foldable Content[enter image description here][1]
+</details>
 
 # Encapsulation : 
 binding of data(attributes & methods) in a class in to a single unit. 
