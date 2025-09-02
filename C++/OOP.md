@@ -149,7 +149,10 @@ class statement:public student, public sport{
 </details>
 
 
-# Encapsulation : 
+<details>
+  <summary> Encapsulation : </summary>
+
+  
 binding of data(attributes & methods) in a class in to a single unit. 
 ### To achiece : 
 1. declare var as private
@@ -159,6 +162,11 @@ binding of data(attributes & methods) in a class in to a single unit.
 1. increase data security 
 2. increase readability and flexibility 
 3. reusability 
+
+
+<details>
+  <summary>Code </summary>
+  
 
 ```
 
@@ -188,10 +196,13 @@ int main()
     cout << ac1.getBalance();
 }
 ```
+</details>
+</details>
 
 
-
-# Abstraction : 
+<details>
+  <summary>Abstraction</summary>
+  
 - hiding the implementation details form the user 
 - only the functionality will be provided to the user
 
@@ -199,6 +210,10 @@ int main()
  1. security 
  2. simplicity 
 
+
+<details>
+  <summary>Code</summary>
+  
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -225,15 +240,23 @@ int main() {
     search1.search("hello");
 }
 ```
+</details>
+
+
+</details>
+
 
 # Constructor : 
-
-
-
+<details>
+  <summary>Constructor</summary>
   role is to initilize objects. 
   when an object is created, constructor is called automatically..
   constructor should be public and also no return value 
 
+  
+<details>
+  <summary>Code</summary>
+  
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -255,7 +278,14 @@ int main() {
 }
 ```
 
+</details>
+
+
 ### Prametrized constructor : 
+<details>
+  <summary>Prametrized constructor </summary>
+
+  
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -303,8 +333,17 @@ int main() {
     student st1("shad"),st2("adel");
 }
 ```
-# Polymorphism : 
+</details>
 
+</details>
+
+
+
+# Polymorphism : 
+<details>
+  <summary>Polymorphism</summary>
+
+  
 perform single action in different ways
 if you know all lang in india, you'll speak based on the place you are in . the main thing you doing is speaking
 
@@ -316,8 +355,18 @@ advantage : code resuability
 
 
 ### Function Overriding : 
+<details>
+  <summary>Function Overriding</summary>
+
+  
 rewriting the function in parent class, and making it to something else in child class.
 we just overridden the function in the parent class, rewrote it in the child class. 
+
+
+<details>
+  <summary>CODE</summary>
+
+  
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -357,9 +406,23 @@ int main() {
 }
 
 ```
+
+</details>
+</details>
+
+
 ### Function overloading : 
+<details>
+  <summary>Function overloading </summary>
+
+  
 same function name but with different parameter data type, different operations or function.
-```
+
+
+<details>
+  <summary>C O D E</summary>
+  
+  ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
@@ -383,10 +446,23 @@ int main() {
 }
 ```
 
+</details>
+
+
+</details>
+
+
 ### Operator overloading : 
+<details>
+  <summary>Operator overloading </summary>
+  
 provide special meanign of an operator for a user-defined data type (objects & structure)
 cannot use for built-in types (float, char, int etc.)
 
+
+<details>
+  <summary>C O D E</summary>
+  
 ```
 // Online C++ compiler to run C++ program online
 #include <iostream>
@@ -421,4 +497,11 @@ int main() {
     obj1.print();
 }
 ```
+</details>
+
+</details>
+
+
+
+</details>
 
