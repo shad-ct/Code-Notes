@@ -1,4 +1,6 @@
-# Class & Object : 
+<details>
+  <summary> Class & Object :  </summary>
+  
 🧱 Class: The Blueprint
 A class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that the objects created from it will have.
 
@@ -31,7 +33,12 @@ int main() {
 attribute : make, model-name, price
 methods : call , disconnect, pic 
 
-# Inheritance 
+</details>
+
+
+<details>
+  <summary> Inheritance </summary>
+  
 Once class acquires the properties of another class.
 Advantages : 
 - code reusability
@@ -119,6 +126,9 @@ int main() {
     Foldable Content[enter image description here][1]
 </details>
 
+</details>
+
+#  
 # Encapsulation : 
 binding of data(attributes & methods) in a class in to a single unit. 
 ### To achiece : 
