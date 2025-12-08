@@ -27,3 +27,35 @@ function App() {
 }
 export default App;
 ```
+
+
+
+BASICALLY, WHEN YOU CANT DIRECTLY ACCESS THE INPUT VALUE , from input when the submit is from a button. like refering it with an id or ref value.
+
+
+```
+import { useRef } from "react"
+
+
+function App() {
+
+
+  const numRef = useRef(0);
+
+  console.log(numRef);
+
+  function plusNum() {
+    console.log(numRef.current.value);
+  }
+  return (
+    <>
+      <input ref={numRef} placeholder="enter your number" />
+      <button onClick={plusNum}>SUBMIT</button>
+
+    </>
+  )
+}
+
+export default App
+
+```
