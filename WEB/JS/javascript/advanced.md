@@ -25,6 +25,15 @@ const out = arr.map(sqr);
 console.log(out);
 ```
 
+### for fun thenga: 
+```
+const arr = [1, 2, 3, 4, 5];
+const sqr = (n) => `thenga ${n}`;
+const out = arr.map(sqr);
+console.log(out);
+```
+
+
 # 3. Filter 
 ```
 console.log('3. Filter')
