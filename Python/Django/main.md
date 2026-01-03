@@ -59,3 +59,33 @@ def index(request):
 def about(request):
     return HttpResponse("This is the About Page.")
 ```
+
+
+
+
+
+
+# Django Templates : (load HTML)
+
+// create a templates folder in main directory:
+<img width="274" height="243" alt="image" src="https://github.com/user-attachments/assets/32f092f0-c9c6-4fbf-992d-9751922439e5" />
+
+
+
+> views.py of home :
+```
+def index(request):
+    return render(request, 'index.html')
+```
+
+// create a index.html in template folder 
+
+> settings of projName:
+```
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': ['templates'],
+
+```
