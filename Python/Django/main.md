@@ -41,7 +41,10 @@ from django.urls import include, path
 from . import views
 urlpatterns = [
     path('', views.index), 
+    path('about/', views.about), 
 ]
+
+we have made a about page too.
 ```
 
 > views.py of home :
@@ -53,4 +56,6 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Hello, welcome to the Home Page!")
 
+def about(request):
+    return HttpResponse("This is the About Page.")
 ```
