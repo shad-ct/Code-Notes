@@ -45,5 +45,30 @@ the coolest one is one with "expanded" that will take max space.
 <img width="504" height="457" alt="image" src="https://github.com/user-attachments/assets/22d7e106-5acf-4e8d-9a36-b3306d5517ee" />
 
 
-# Hot reload vs restart : 
+## Hot reload vs restart : 
 reload : doesnt change the states (input etc) but restart changes it . 
+
+## containers :
+it is same as the div in html : 
+
+```
+
+        body: Container(
+          margin: EdgeInsets.symmetric(horizontal: 50, vertical: 350),
+          color: Colors.blue,
+          width: 200,
+          height: 200,
+          child: Text(
+            "Hello, Flutter!",
+            style: TextStyle(color: Colors.white, fontSize: 20),
+          ),
+        ),
+```
+
+## Maring : 
+1. margin from left right, top , bottom :
+          margin: EdgeInsets.fromLTRB(10, 20, 30, 50),
+2. margin horizontal and vertical : 
+          margin: EdgeInsets.symmetric(horizontal: 50, vertical: 350),
+3. margin all sides : 
+          margin: EdgeInsets.all(20),
