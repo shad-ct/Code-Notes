@@ -25,3 +25,15 @@ async function getNotes() {
 getNotes();
 
 ```
+
+## get specific data : 
+
+```
+sync function getNote(id){
+    const [row] = await pool.query(`SELECT * FROM notes WHERE id = ? `, [id]) // to skip sql injection
+    console.log(row)
+}
+
+getNote(2);
+
+```
