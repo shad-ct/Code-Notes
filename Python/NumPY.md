@@ -19,9 +19,55 @@ out :
  [ 9 10 11 12]]
 ```
 
+# Broadcasting : 
+doing arithmetic operations in different dimesions of matrix--
+rules : 
+- They are exactly the same size.
+- One of them is exactly size 1 (so it can be stretched to match the other).
 
 
+# Filtering : 
+```
+import numpy as np
 
+ages = np.array([[21, 17, 19, 20,16, 30, 18, 65],
+[39, 22, 15, 99, 18, 19, 20, 21]])
+
+teenagers = ages[ages < 18]
+
+print(teenagers)
+```
+
+## Filtering using where function [keeping the og size of the array ] : 
+```
+import numpy as np
+
+ages = np.array([[21, 17,19, 20, 16, 30, 18, 65],
+[39, 22, 15, 99, 18, 19, 20, 21]])
+
+adults = np.where(ages >= 18, ages, 0)
+
+print(adults)
+```
+OUT : 
+
+```
+[ [21 0 19 20 0 30 18 65]
+[39 22 0 99 18 19 20 21]]
+```
+
+
+# Choosing random stuff array : (here selects 3)
+
+```
+import numpy as np
+
+rng = np.random.default_rng()
+
+fruits = np.array(["apple", "orange", "banana", "coconut", "pineapple"])
+fruits = rng.choice(fruits, size=3)
+print(fruits)
+```
 
 # Numpy Arrays : 
 
