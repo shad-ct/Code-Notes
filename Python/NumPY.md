@@ -1,11 +1,29 @@
+# Slicing 
+```
+import numpy as np
+
+array = np.array([[1, 2, 3, 4],
+[5,6,7,8],
+[9,10,11, 12],
+[13, 14, 15,16]])
+
+# array[start: end: step]
+
+print(array[0:3])
+```
+
+out : 
+```
+[[ 1  2  3  4]
+ [ 5  6  7  8]
+ [ 9 10 11 12]]
+```
+
+
+
+
+
 # Numpy Arrays : 
-
-## One Dimensional Arrays
-<img width="1084" height="412" alt="image" src="https://github.com/user-attachments/assets/77021987-72f3-46bc-9dc1-c946cdb79e64" />
-<img width="1269" height="559" alt="image" src="https://github.com/user-attachments/assets/0430933b-9c67-4f6e-be9f-71a2ea91e850" />
-
-## Two Dimensional Arrays
-<img width="1085" height="489" alt="image" src="https://github.com/user-attachments/assets/e2bc6ee5-8cb7-4e1a-a0d9-796c9727b366" />
 
 ### To check dimension : 
 ```
